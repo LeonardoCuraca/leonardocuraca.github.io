@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #528bff;
+  --color-secondary: #1e2227;
+  --color-danger: #e45454;
+  --color-warning: #ff942f;
+  --color-success: #2faf64;
+  --color-info: #00b7e4;
+  --color-dark: #23272e;
+
+  --font-cascadia: "Cascadia Code PL", monospace;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
