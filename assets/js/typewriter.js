@@ -7,9 +7,9 @@ window.addEventListener("scroll", () => { typewriter(); });
 
 function typewriter() {
     const typewriters = document.querySelectorAll(".typewriter");
-    
+
     typewriters.forEach((typewriter) => {
-        if (isElementInViewport(typewriter) && typewriter.innerHTML === "") {
+        if (isElementInViewport(typewriter) && typewriter.innerHTML.trim() === "") {
             const text = typewriter.getAttribute("text");
 
             let offset = 1;
@@ -44,7 +44,7 @@ window.addEventListener("click", (event) => { changeTypewriter(event); });
 function changeTypewriter(event) {
     const element = event.target;
     const unsopportedElements = ["HTML", "BODY", "SECTION", "DIV", "BUTTON", "A", "IMG", "I"]
-    
+
     if (!unsopportedElements.includes(element.tagName)) {
         console.log(element.tagName)
         document.querySelectorAll(".typewriter").forEach((element) => {

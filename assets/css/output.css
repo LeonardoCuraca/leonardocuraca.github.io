@@ -348,10 +348,6 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
   .border-4 {
     border-style: var(--tw-border-style);
     border-width: 4px;
@@ -411,9 +407,6 @@
   .bg-secondary {
     background-color: var(--color-secondary);
   }
-  .bg-zinc-900 {
-    background-color: var(--color-zinc-900);
-  }
   .object-cover {
     object-fit: cover;
   }
@@ -452,9 +445,6 @@
   }
   .ps-4 {
     padding-inline-start: calc(var(--spacing) * 4);
-  }
-  .pe-3 {
-    padding-inline-end: calc(var(--spacing) * 3);
   }
   .pb-6 {
     padding-bottom: calc(var(--spacing) * 6);
@@ -646,13 +636,6 @@
     &:is(:where(.group\/img):hover *) {
       @media (hover: hover) {
         opacity: 100%;
-      }
-    }
-  }
-  .hover\:border-zinc-700 {
-    &:hover {
-      @media (hover: hover) {
-        border-color: var(--color-zinc-700);
       }
     }
   }
