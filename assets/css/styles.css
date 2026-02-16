@@ -7,14 +7,25 @@ body {
     font-family: "Cascadia Code PL";
 }
 
-a { text-decoration: none }
+a {
+    text-decoration: none
+}
 
-p { margin-bottom: 0 }
+p {
+    margin-bottom: 0
+}
 
-.text-balance { text-wrap: balance }
+.text-balance {
+    text-wrap: balance
+}
 
-.fs-sm { font-size: 0.875rem }
-.fs-xs { font-size: 0.75rem }
+.fs-sm {
+    font-size: 0.875rem
+}
+
+.fs-xs {
+    font-size: 0.75rem
+}
 
 .loader {
     background-color: var(--bs-secondary);
@@ -88,11 +99,11 @@ p { margin-bottom: 0 }
     width: 3rem;
     padding-right: 0.75rem;
     text-align: end;
-    color: rgba(255, 255, 255, 0.5)!important;
+    color: rgba(255, 255, 255, 0.5) !important;
 }
 
 #numbar ul li.active {
-    color: rgba(255, 255, 255)!important;
+    color: rgba(255, 255, 255) !important;
 }
 
 @media (max-width: 576px) {
@@ -131,7 +142,7 @@ p { margin-bottom: 0 }
     border-right: 2px solid var(--bs-primary);
     animation: caret 1s steps(1) infinite;
 }
-  
+
 @keyframes caret {
     50% {
         border-color: transparent;
@@ -162,13 +173,13 @@ p { margin-bottom: 0 }
 
 /* Content */
 
-.parent-tag + .child-tag {
+.parent-tag+.child-tag {
     border-left: 1px solid rgba(255, 255, 255, 0.25);
     padding-left: 1.5rem;
 }
 
 @media (max-width: 576px) {
-    .parent-tag + .child-tag {
+    .parent-tag+.child-tag {
         padding-left: 1rem;
     }
 }
@@ -181,15 +192,15 @@ hr {
 /* Social Media */
 
 .social-media-container a:hover:has(i.fa-linkedin) {
-    background-color: #0073b1!important;
+    background-color: #0073b1 !important;
 }
 
 .social-media-container a:hover:has(i.fa-github) {
-    background-color: #333!important;
+    background-color: #333 !important;
 }
 
 .social-media-container a:hover:has(i.fa-whatsapp) {
-    background-color: #06cf9c!important;
+    background-color: #06cf9c !important;
 }
 
 /* Splide */
